@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"docplanner_work_sans";
+    
+}
+
+/*FONT FACE STYLING*/
+@font-face {
+    font-family: "docplanner" ;
+    src: url(../res/helvetica_neue/HelveticaNeueMedium.ttf);
+
+    font-family: "docplanner_work_sans";
+    src: url(../res/work_sans/WorkSans-VariableFont_wght.ttf);
+
+}
+
+.docplannerlogo {
+    width: 45%;
+    margin-left: 20%;
+}
+
+nav > a{
+    font-size: 16px;
+    font-weight: 400;
+    color:  #ABABAB;
+    line-height: 22.8571px;
+    /* color: rgb(0, 179, 155); */
+    text-decoration: none;
+    padding-left: 1.1rem;
+    
+}
+nav {
+    margin-right: 10% ;
+} 
+
+nav a:hover {
+    color: rgb(0, 179, 155);
+}
+#about {
+    color: rgb(0, 179, 155);
+
+}
+
+.headercontainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5%;
+}
+
+.leadsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    flex-wrap: wrap;
+}
+#docplannericon {
+    width: 40px;
+}
+.leadsection > p {
+    font-size: 32.9px;
+    font-weight: 300;
+    line-height: 47px;
+    color: rgb(0, 179, 155);
+}
+
+.twoparagraphs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 280px 30px 260px;
+    gap: 30px;
+}
+
+.docp {
+    color: #747474;
+    font-size: 16px;
+}
+
+/* FOR SECTION  */
+
+.forsection {
+    display: flex;
+    width: 100vw;
+    height: 35vh;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 3,75rem auto 2.5rem;
+    
+
+}
+.forpatients {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    background-color:#00CCB1 ;
+    
+    padding: 2em 2em 0 ;
+    border-radius: 3%;
+
+
+}
+
+.fordoctors {
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    background-color: #3D83DF;
+    padding: 2em 2em 0 ;
+    border-radius: 3%;
+    
+
+}
+
+.forclinics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    background-color: #1B2734;
+    padding: 2em 2em 0 2em;
+    border-radius: 3%;
+}
+
+.title {
+    color: white;
+    font-size: 2em;
+    margin: 0.3em 0;
+    font-weight: 400;
+}
+
+.subtitle{
+    color: white;
+    font-size: 21px;
+    font-weight: 200;
+}
+
+
+
+#select3 {
+    display: flex;
+    flex-direction: column;
+}
+#select1 {
+    color: white;
+    background: #00CCB1;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 60px;
+}
+
+#select2 {
+    color: white;
+    background: #3D83DF;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 60px;
+}
+
+#select3 > select {
+    background-color:#1B2734 ;
+    border:#00CCB1;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+#select3 select {
+    margin-bottom: 52px;
+}
+
+
+
